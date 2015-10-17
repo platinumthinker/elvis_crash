@@ -1,0 +1,12 @@
+{application, elvis_crash,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { elvis_crash_app, []}},
+  {env, []}
+ ]}.
